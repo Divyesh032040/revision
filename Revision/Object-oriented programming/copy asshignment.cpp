@@ -100,6 +100,40 @@ hero1 = hero2;
 //simple her copy all value of hero2 to hero1 
 
 
+// consept of destructor 
+
+    
+// #include <iostream>
+// using namespace std;
+
+// class hero {
+// public:
+// int health;
+// string name;
+
+// //destructor 
+
+// ~ hero(){
+
+//     cout<<"Destructor called "<<endl;
+// }
+
+// };
+
+
+// int main() {
+
+// //static  
+// hero a;      //destructor for static allocation will be happen automatically.
+
+// //dynamically 
+// hero *b = new hero();       //but in case of dynamic allocation , we have to use delete(class name) ,, and de allocate manually. 
+
+// delete(b);
+
+// return 0;
+// }
+
 
 
 
